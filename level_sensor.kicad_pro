@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fpc.kicad_pro",
+    "filename": "level_sensor.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -386,10 +386,6 @@
     [
       "b29cf43f-9c9a-4a3e-a4af-0b82845645a8",
       "Root"
-    ],
-    [
-      "683988a6-19dd-4cd0-af75-ddcf085acea1",
-      "Level Sensor"
     ]
   ],
   "text_variables": {}

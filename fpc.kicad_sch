@@ -1,5 +1,51 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b29cf43f-9c9a-4a3e-a4af-0b82845645a8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 204.47 38.1)
+		(size 71.12 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "683988a6-19dd-4cd0-af75-ddcf085acea1")
+		(property "Sheetname" "Level Sensor"
+			(at 204.47 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_sensor.kicad_sch"
+			(at 204.47 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
