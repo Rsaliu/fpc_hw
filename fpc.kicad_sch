@@ -1,5 +1,51 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "66b13487-b8af-4da1-bb0e-bc31b33484d5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 201.93 80.772)
+		(size 32.004 32.258)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de71b24d-343b-4653-8e20-a9c628cecbe2")
+		(property "Sheetname" "led"
+			(at 201.93 80.0604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 201.93 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/66b13487-b8af-4da1-bb0e-bc31b33484d5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
