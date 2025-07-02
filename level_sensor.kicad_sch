@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "29ab425b-685d-4ee8-989d-1ea18bb37496")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,45 +83,9 @@
 				)
 			)
 			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -143,7 +109,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -154,21 +132,45 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
+					(start 0 2.032)
 					(mid -0.5058 2.54)
-					(end 0 2.032)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -250,10 +252,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -330,43 +335,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -390,7 +361,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
 						(width 0.1524)
@@ -402,7 +373,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
 					)
 					(stroke
 						(width 0.1524)
@@ -414,7 +385,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -438,8 +409,31 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -460,7 +454,18 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -543,12 +548,142 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -639,6 +774,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "rs485_ttl_sym:rs485_ttl_sm"
 			(exclude_from_sim no)
@@ -702,9 +838,9 @@
 			)
 			(symbol "rs485_ttl_sm_1_1"
 				(pin bidirectional line
-					(at 46.99 6.35 180)
+					(at -2.54 11.43 0)
 					(length 2.54)
-					(name "A"
+					(name "R0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,9 +856,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 8.89 180)
+					(at -2.54 8.89 0)
 					(length 2.54)
-					(name "B"
+					(name "RE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,60 +910,6 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 11.43 0)
-					(length 2.54)
-					(name "R0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 8.89 0)
-					(length 2.54)
-					(name "RE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 46.99 11.43 180)
 					(length 2.54)
 					(name "VCC"
@@ -845,8 +927,83 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 46.99 8.89 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 46.99 6.35 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 46.99 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "RS485_TTL CONNECTION\n\nR0 is connected to RX pin of the ESP32\nD1 is connected to TX pin of the ESP32\n1 x 4 socket is connected to the VCC, B, A, & GND of the Module\nAnother A 1 x 4 socket is connected to 1 x 4 screw terminal for Level sensor "
+		(exclude_from_sim no)
+		(at 204.47 85.09 0)
+		(size 64.77 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cb492a38-96e9-4cd5-a789-39759ef35f45")
 	)
 	(junction
 		(at 200.66 66.04)
@@ -898,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 58.42) (xy 223.52 58.42)
+			(xy 220.98 58.42) (xy 226.06 58.42)
 		)
 		(stroke
 			(width 0)
@@ -948,16 +1105,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 233.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d279abe-ed7f-45a1-a4f9-11fd9f0973c8")
-	)
-	(wire
-		(pts
 			(xy 198.12 66.04) (xy 200.66 66.04)
 		)
 		(stroke
@@ -988,13 +1135,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 58.42) (xy 223.52 50.8)
+			(xy 226.06 58.42) (xy 226.06 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6b22b29-fb28-4e08-94cb-6dbd7ffb7699")
+		(uuid "b4ebfa10-ca07-46ba-9622-243ebe1565b0")
 	)
 	(wire
 		(pts
@@ -1098,7 +1245,6 @@
 	)
 	(label "12V"
 		(at 245.11 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1107,20 +1253,8 @@
 		)
 		(uuid "2792bb99-8379-4534-894a-2cf0bcc792c4")
 	)
-	(label "5V"
-		(at 232.41 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4896a202-b556-4356-bb82-31e6a5381946")
-	)
-	(label "GPIO 16"
+	(label "RX"
 		(at 128.27 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1129,9 +1263,8 @@
 		)
 		(uuid "720ec691-598d-431f-a0ed-3fdc3be8a8bc")
 	)
-	(label "GPIO 17"
+	(label "TX"
 		(at 128.27 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "085e30c4-2290-4307-80ba-035cf0f744ff")
-		(property "Reference" "J3"
+		(property "Reference" "J?"
 			(at 236.22 60.9599 0)
 			(effects
 				(font
@@ -1207,7 +1340,14 @@
 		(pin "3"
 			(uuid "345f1fc9-7c53-4aad-a024-704a2f20e527")
 		)
-		(instances)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1219,7 +1359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b9e745d-df41-4b62-a2e1-a78e8a2c545b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -1266,7 +1406,14 @@
 		(pin "1"
 			(uuid "dbd1f275-06ef-4403-a3a8-784f7e1e128e")
 		)
-		(instances)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
@@ -1278,7 +1425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44009975-f2c4-43f4-8ed3-ef9791279fe7")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 208.28 60.9599 0)
 			(effects
 				(font
@@ -1335,7 +1482,80 @@
 		(pin "1"
 			(uuid "de2f7eb1-1c8e-42bf-bf2b-bb576d1078cc")
 		)
-		(instances)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 226.06 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8981b5a6-3a3c-4c15-ba29-2c83d15bfe07")
+		(property "Reference" "#PWR01"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf1036c8-5e10-40d6-b36c-aaeb562403bb")
+		)
+		(instances
+			(project ""
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "rs485_ttl_sym:rs485_ttl_sm")
@@ -1347,16 +1567,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb6f1fa8-1662-4604-a9bf-4de2361879d6")
-		(property "Reference" "U1"
-			(at 173.355 50.8 0)
+		(property "Reference" "U?"
+			(at 173.355 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RS485_TTL_Sensor"
-			(at 173.355 53.34 0)
+		(property "Value" "RS485_TTL_Module"
+			(at 173.355 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1634,14 @@
 		(pin ""
 			(uuid "36ad8363-ea6e-4866-af7a-b49f27991b71")
 		)
-		(instances)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
@@ -1426,7 +1653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac9f805-a6c5-4cd0-b869-147bb4de85cb")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 216.535 53.34 0)
 			(effects
 				(font
@@ -1481,6 +1708,13 @@
 		(pin "3"
 			(uuid "b6fc6c05-1305-4245-84da-29997f75797f")
 		)
-		(instances)
+		(instances
+			(project "fpc"
+				(path "/b29cf43f-9c9a-4a3e-a4af-0b82845645a8/683988a6-19dd-4cd0-af75-ddcf085acea1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
