@@ -415,6 +415,10 @@
     [
       "a58737f3-eea2-4d27-859f-088c32ff1c9c",
       "power_schematic"
+    ],
+    [
+      "c2743a48-bc04-4b4b-a0cd-d56499be45ae",
+      "mcu_schematic"
     ]
   ],
   "text_variables": {}
