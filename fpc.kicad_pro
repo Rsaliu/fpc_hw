@@ -423,6 +423,10 @@
     [
       "d200b92a-1f4e-4d29-a723-683d81413cbf",
       "relay_schematic"
+    ],
+    [
+      "b7e3db67-bab6-4d9c-8d9d-148bc3bcd3c3",
+      "current_level_schematic"
     ]
   ],
   "text_variables": {}

@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 55.88 148.59)
+		(size 41.91 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7e3db67-bab6-4d9c-8d9d-148bc3bcd3c3")
+		(property "Sheetname" "current_level_schematic"
+			(at 55.88 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_level_schematic.kicad_sch"
+			(at 55.88 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/01bdb219-e962-46e0-86ef-19b214cb07d2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 56.515 84.328)
 		(size 37.592 43.942)
 		(exclude_from_sim no)
