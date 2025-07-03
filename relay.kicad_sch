@@ -1655,7 +1655,7 @@
 		)
 		(uuid "503afd14-77a6-4c75-8387-979bfa4dea36")
 	)
-	(text "How It Works\nyou enegize the relay coil with 12v that pass through a transistor,\nthis creates a magnetic field inside the relay\nthe magnetic pulls a mechanical arm inside the relay\nthis connects the COM (common) to the NO (Normally Open) terminal\nthat completes the circuit to the pump, and it starts running.\nwhen the signal stops the relay de-energizes, the arm go back\nthe cicuit opens, and the pump off.\nwhen the relay turn off it create a high voltage spike in reverse direction\nwhich will be absolved by the IN4007 diode.\n\nTO CALCULATE THE BASE RESISTOR\nRb=Vcontrol-VBE(on)/IB\nIB=Ic/10\nIb=20mA/10=2mA\nRb=12v-0.66v/2mA\nRb=11.34/0.002A\nRb=567ohms\nto be within safe zone we use 1kohms\n\n"
+	(text "How It Works\nyou enegize the relay coil with 12v that pass through a transistor,\nthis creates a magnetic field inside the relay\nthe magnetic pulls a mechanical arm inside the relay\nthis connects the COM (common) to the NO (Normally Open) terminal\nthat completes the circuit to the pump, and it starts running.\nwhen the signal stops the relay de-energizes, the arm go back\nthe cicuit opens, and the pump off.\nwhen the relay turn off it create a high voltage spike in reverse direction\nwhich will be absolved by the IN4007 diode.\n\nTO CALCULATE THE BASE RESISTOR\nRb=Vcontrol-VBE(on)/IB\nIB=Ic/10\nIb=20mA/10=2mA\nRb=3.3v-0.66v/2mA\nRb=2.64/0.002A\nRb=1320ohms\nto be within safe zone we use 1kohms\n\n"
 		(exclude_from_sim no)
 		(at 155.702 96.266 0)
 		(effects
@@ -1677,6 +1677,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef45de26-d1c9-42f2-926a-49c61766a4e6")
+	)
+	(no_connect
+		(at 88.9 77.47)
+		(uuid "057c215b-bff2-4d7a-ba7e-0433d4dfefca")
+	)
+	(no_connect
+		(at 99.06 77.47)
+		(uuid "5550682d-e460-4f54-bd3b-fe8bd87096af")
 	)
 	(wire
 		(pts
