@@ -89,6 +89,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 212.09 36.83)
+		(size 43.18 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d200b92a-1f4e-4d29-a723-683d81413cbf")
+		(property "Sheetname" "relay_schematic"
+			(at 212.09 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_schematic.kicad_sch"
+			(at 212.09 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/01bdb219-e962-46e0-86ef-19b214cb07d2"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -419,6 +419,10 @@
     [
       "c2743a48-bc04-4b4b-a0cd-d56499be45ae",
       "mcu_schematic"
+    ],
+    [
+      "d200b92a-1f4e-4d29-a723-683d81413cbf",
+      "relay_schematic"
     ]
   ],
   "text_variables": {}
