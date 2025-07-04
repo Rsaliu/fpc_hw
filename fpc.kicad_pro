@@ -427,6 +427,10 @@
     [
       "6ce96734-caee-4465-8316-50b43f89e8eb",
       "level_sensor"
+    ],
+    [
+      "225593e6-e0e9-4a96-87d5-03da1cb16f87",
+      "current_sensor_schematic"
     ]
   ],
   "text_variables": {}

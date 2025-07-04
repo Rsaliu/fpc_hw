@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 55.753 149.098)
+		(size 45.847 43.434)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "225593e6-e0e9-4a96-87d5-03da1cb16f87")
+		(property "Sheetname" "current_sensor_schematic"
+			(at 55.753 148.3864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensor_schematic.kicad_sch"
+			(at 55.753 193.1166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/01bdb219-e962-46e0-86ef-19b214cb07d2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 130.937 45.466)
 		(size 37.846 37.084)
 		(exclude_from_sim no)
