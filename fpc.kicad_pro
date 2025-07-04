@@ -423,6 +423,10 @@
     [
       "d200b92a-1f4e-4d29-a723-683d81413cbf",
       "relay_schematic"
+    ],
+    [
+      "6ce96734-caee-4465-8316-50b43f89e8eb",
+      "level_sensor"
     ]
   ],
   "text_variables": {}

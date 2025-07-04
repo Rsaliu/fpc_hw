@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 130.937 45.466)
+		(size 37.846 37.084)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ce96734-caee-4465-8316-50b43f89e8eb")
+		(property "Sheetname" "level_sensor"
+			(at 130.937 44.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_sensor.kicad_sch"
+			(at 130.937 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/01bdb219-e962-46e0-86ef-19b214cb07d2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 213.741 89.154)
 		(size 41.148 45.212)
 		(exclude_from_sim no)
