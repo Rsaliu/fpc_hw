@@ -431,6 +431,10 @@
     [
       "225593e6-e0e9-4a96-87d5-03da1cb16f87",
       "current_sensor_schematic"
+    ],
+    [
+      "7ce901d5-eb08-4f94-91f5-edf816a1a82e",
+      "fpc_hw"
     ]
   ],
   "text_variables": {}

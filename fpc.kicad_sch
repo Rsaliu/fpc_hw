@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 111.76 96.52)
+		(size 91.44 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ce901d5-eb08-4f94-91f5-edf816a1a82e")
+		(property "Sheetname" "fpc_hw"
+			(at 111.76 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "marging.kicad_sch"
+			(at 111.76 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpc"
+				(path "/01bdb219-e962-46e0-86ef-19b214cb07d2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 213.741 89.154)
 		(size 41.148 45.212)
 		(exclude_from_sim no)
