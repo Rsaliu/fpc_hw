@@ -1,7 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "asc712_module")(type "KiCad")(uri "${CUSTOM_SYMBOL_DIR}/ASC712_current_sensor.kicad_sym")(options "")(descr ""))
-  (lib (name "esp32_dev_module")(type "KiCad")(uri "${CUSTOM_SYMBOL_DIR}/DEVKIT_V1_ESP32-WROOM-32.kicad_sym")(options "")(descr ""))
-  (lib (name "rs485_to_ttl")(type "KiCad")(uri "${CUSTOM_SYMBOL_DIR}/rs485_ttl_sym.kicad_sym")(options "")(descr ""))
-  (lib (name "ADS1115_module")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/ZC261500.kicad_sym")(options "")(descr ""))
+  (lib (name "custom1")(type "KiCad")(uri "${KICAD_CUSTOM_SYMBOL_DIR}/ASC712_current_sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "custom2")(type "KiCad")(uri "${KICAD_CUSTOM_SYMBOL_DIR}/DEVKIT_V1_ESP32-WROOM-32.kicad_sym")(options "")(descr ""))
+  (lib (name "custom3")(type "KiCad")(uri "${KICAD_CUSTOM_SYMBOL_DIR}/rs485_ttl_sym.kicad_sym")(options "")(descr ""))
+  (lib (name "custom4")(type "KiCad")(uri "${KICAD_CUSTOM_SYMBOL_DIR}/ZC261500.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
 )
