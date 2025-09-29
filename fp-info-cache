@@ -1,4 +1,4 @@
-26508298858593892
+26511806458740188
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105931,6 +105931,13 @@ MODULE_ESP32-DEVKITC-32E
 38
 38
 custom
+MODULE_ESP32_NODEMCU
+
+
+0
+38
+38
+custom
 MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER
 
 
@@ -105944,3 +105951,10 @@ MODULE_ZC261500
 0
 12
 12
+custom
+omron-LY2
+Omron LY1x and LY2x relays
+RELAY
+0
+8
+8
