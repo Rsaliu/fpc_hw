@@ -4852,16 +4852,16 @@
 		(uuid "22d17003-7a44-4d17-9b19-ba9cd28f2dbf")
 	)
 	(no_connect
+		(at 213.36 77.47)
+		(uuid "2695219c-1bdd-4888-9ce5-677514504754")
+	)
+	(no_connect
 		(at 242.57 44.45)
 		(uuid "2cfee62f-2539-417a-8113-1d66badcfea4")
 	)
 	(no_connect
 		(at 283.21 69.85)
 		(uuid "3e7ff62f-67a6-4cc9-a62f-a3f0f7e552fa")
-	)
-	(no_connect
-		(at 309.88 68.58)
-		(uuid "4d99913d-766d-4347-8fc2-656e0d256a13")
 	)
 	(no_connect
 		(at 283.21 74.93)
@@ -4888,12 +4888,8 @@
 		(uuid "62610d48-b3aa-4e13-8e8b-baac30f476cb")
 	)
 	(no_connect
-		(at 213.36 76.2)
+		(at 213.36 74.93)
 		(uuid "6d6b4439-820b-4c59-8492-a21895feaefa")
-	)
-	(no_connect
-		(at 283.21 39.37)
-		(uuid "70d53031-a73c-444b-b1a6-287ee48c71ec")
 	)
 	(no_connect
 		(at 283.21 57.15)
@@ -4910,10 +4906,6 @@
 	(no_connect
 		(at 283.21 72.39)
 		(uuid "966d1e05-9128-4f12-8fcf-81ee95f477c8")
-	)
-	(no_connect
-		(at 213.36 77.47)
-		(uuid "9f398ce0-7223-4793-876b-a87b2a8882ca")
 	)
 	(no_connect
 		(at 283.21 80.01)
@@ -4954,10 +4946,6 @@
 	(no_connect
 		(at 217.17 209.55)
 		(uuid "e9a34be9-2df5-4336-aebe-a57a89bdfbb5")
-	)
-	(no_connect
-		(at 213.36 74.93)
-		(uuid "ece8e269-34ef-4c1d-80f5-4227ef03930c")
 	)
 	(no_connect
 		(at 242.57 46.99)
@@ -6039,6 +6027,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 68.58) (xy 309.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c00a85-c9b2-43d6-8738-1164d86c3eb7")
+	)
+	(wire
+		(pts
 			(xy 213.36 44.45) (xy 218.44 44.45)
 		)
 		(stroke
@@ -6486,6 +6484,16 @@
 			(type default)
 		)
 		(uuid "d775cd52-ec0d-42ac-8dde-3173c1a75df7")
+	)
+	(wire
+		(pts
+			(xy 283.21 39.37) (xy 289.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fc386f-7a1a-4bd1-b719-9b6a8e20ac16")
 	)
 	(wire
 		(pts
@@ -7007,6 +7015,16 @@
 		)
 		(uuid "33fc0922-8cdf-45d8-be5c-51f19acc332a")
 	)
+	(label "ALERT"
+		(at 289.56 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34bb794a-a86d-43dc-97d0-6ca77023d6a5")
+	)
 	(label "4PUMP+"
 		(at 361.95 205.74 0)
 		(effects
@@ -7416,6 +7434,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa14d7fe-332c-4fcb-b83c-f992ece1eaae")
+	)
+	(label "ALERT"
+		(at 303.53 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aca8b520-369b-49d5-a8fc-794d2e12b4d6")
 	)
 	(label "GPIO14"
 		(at 234.95 64.77 0)
@@ -10288,7 +10316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 36.83 0)
+		(at 287.02 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10296,7 +10324,7 @@
 		(dnp no)
 		(uuid "533335d5-5ce6-4b3f-abdd-ddaaccd84106")
 		(property "Reference" "#PWR048"
-			(at 287.02 43.18 0)
+			(at 287.02 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.576 37.846 0)
+			(at 283.464 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.8,
-          "width": 1.8
+          "height": 1.778,
+          "width": 1.778
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -501,7 +501,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
