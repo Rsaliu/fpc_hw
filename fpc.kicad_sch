@@ -4888,6 +4888,10 @@
 		(uuid "62610d48-b3aa-4e13-8e8b-baac30f476cb")
 	)
 	(no_connect
+		(at 242.57 67.31)
+		(uuid "6a868de7-d46f-4e10-b48d-85a84fc39833")
+	)
+	(no_connect
 		(at 213.36 74.93)
 		(uuid "6d6b4439-820b-4c59-8492-a21895feaefa")
 	)
@@ -4928,6 +4932,10 @@
 		(uuid "c5f8e0dc-69c1-4d50-89b8-0eb61e45606c")
 	)
 	(no_connect
+		(at 283.21 39.37)
+		(uuid "cbc68c70-3c8f-4a33-82d0-df9f590b756f")
+	)
+	(no_connect
 		(at 283.21 46.99)
 		(uuid "d41f063c-9389-482d-91fc-afbd57fd358b")
 	)
@@ -4936,20 +4944,12 @@
 		(uuid "df729721-601a-427e-8741-bb0aea4a3196")
 	)
 	(no_connect
-		(at 242.57 67.31)
-		(uuid "e0bb8426-fccb-4bf3-8a00-31f59bf1096e")
-	)
-	(no_connect
 		(at 217.17 212.09)
 		(uuid "e3b542dc-0ca6-4245-9faa-ac2bf04e9d0e")
 	)
 	(no_connect
 		(at 217.17 209.55)
 		(uuid "e9a34be9-2df5-4336-aebe-a57a89bdfbb5")
-	)
-	(no_connect
-		(at 242.57 46.99)
-		(uuid "ed897520-b3aa-4086-a0f7-5252e69b04cc")
 	)
 	(no_connect
 		(at 325.12 203.2)
@@ -6255,6 +6255,16 @@
 		)
 		(uuid "a5a9e277-1725-4320-bcbb-223f56b1a5ff")
 	)
+	(wire
+		(pts
+			(xy 238.76 46.99) (xy 242.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c98724-fe45-4976-9c61-d76987850958")
+	)
 	(polyline
 		(pts
 			(xy 199.39 287.02) (xy 199.39 129.54)
@@ -6484,16 +6494,6 @@
 			(type default)
 		)
 		(uuid "d775cd52-ec0d-42ac-8dde-3173c1a75df7")
-	)
-	(wire
-		(pts
-			(xy 283.21 39.37) (xy 289.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fc386f-7a1a-4bd1-b719-9b6a8e20ac16")
 	)
 	(wire
 		(pts
@@ -7015,16 +7015,6 @@
 		)
 		(uuid "33fc0922-8cdf-45d8-be5c-51f19acc332a")
 	)
-	(label "ALERT"
-		(at 289.56 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34bb794a-a86d-43dc-97d0-6ca77023d6a5")
-	)
 	(label "4PUMP+"
 		(at 361.95 205.74 0)
 		(effects
@@ -7294,6 +7284,16 @@
 			(justify left bottom)
 		)
 		(uuid "751e7c5f-6f09-4c9e-8791-123c751392b5")
+	)
+	(label "ALERT"
+		(at 238.76 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "754172a5-d543-4638-8840-7fcf238e2d63")
 	)
 	(label "3PUMP+"
 		(at 58.42 62.23 0)
