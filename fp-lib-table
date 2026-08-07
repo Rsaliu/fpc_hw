@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "custom")(type "KiCad")(uri "${KICAD_CUSTOM_FOOTPRINT_DIR}")(options "")(descr ""))
-  (lib (name "LM259_THT")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM259_THT.pretty")(options "")(descr ""))
-)
