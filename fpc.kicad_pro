@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,80 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|183302090|138695000|78d4d131-2922-4dac-b5a3-620499440d55|d5a0b94f-77cc-407a-94d3-cef8ad3940c4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|183311415|132875000|78d4d131-2922-4dac-b5a3-620499440d55|aea7fed9-fb15-4c1b-92a7-2eb17f766039",
-          ""
-        ],
-        [
-          "silk_edge_clearance|88402922|123220000|74bf82bc-353b-4922-998e-4eceeaf7d5f0|927ccaa3-dfaf-451e-a538-233959deb6a4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|88423763|112480000|74bf82bc-353b-4922-998e-4eceeaf7d5f0|d2d234f0-c90a-47fe-8384-a2597752ccb4",
-          ""
-        ],
-        [
-          "unconnected_items|166100000|130200000|F.Cu|4|aee4ae29-609d-4c29-872b-f3b599d31fa0|66fe105d-c23c-4ddb-8415-888bc87a244a",
-          ""
-        ],
-        [
-          "unconnected_items|166100000|150520000|F.Cu|4|05c48b66-09d9-4b14-8fff-c75ef6d2a3b9|58e2be43-73c1-455d-9787-bdb29dc8aab3",
-          ""
-        ],
-        [
-          "unconnected_items|166100000|155600000|F.Cu|4|7d494493-900f-4274-a272-ce39fd402e65|5e86e529-1ebb-4c72-b0eb-b4776a73603a",
-          ""
-        ],
-        [
-          "unconnected_items|172200000|155000000|F.Cu|4|5add9aa2-2b50-402e-9759-7d710dbbfb9c|f1772320-d17e-42fa-9726-99503a859ca9",
-          ""
-        ],
-        [
-          "unconnected_items|173100000|129300000|F.Cu|4|6c6a0570-6775-46b1-a105-7875a66dadb9|a9d7571f-bc0d-4c5f-a812-5256ab416e13",
-          ""
-        ],
-        [
-          "unconnected_items|175100000|146700000|F.Cu|4|e06f390a-7ece-4964-bed3-1d2d27d383b9|c48ef341-f7b2-4424-8a0e-54639ca386d4",
-          ""
-        ],
-        [
-          "unconnected_items|182858439|103212654|F.Cu|4|68672075-f134-4f2f-80d3-07c2aab483c2|727a6768-86a9-463d-9fe5-55ccea794759",
-          ""
-        ],
-        [
-          "unconnected_items|216900000|103400000|F.Cu|4|cf03bf9c-c570-492e-a3e2-839aab6240eb|d97b16df-fcaf-4d41-a69b-fc6bab1e0caa",
-          ""
-        ],
-        [
-          "unconnected_items|220800000|169500000|F.Cu|4|fb19a95c-47fd-4337-89ee-226a7ac90736|8e6a379c-d951-4614-8fce-46cdfc080469",
-          ""
-        ],
-        [
-          "unconnected_items|221590000|149850000|F.Cu|4|399d63b9-3bbc-4b06-be99-8d7d698525a9|4d71cc9e-0fd2-44f3-aa12-1448a0abd67a",
-          ""
-        ],
-        [
-          "unconnected_items|223740000|148070000|F.Cu|4|00e917aa-0ab1-4320-a44b-e19db4e076b1|28c1d0e2-8e87-41f3-875b-11b97840fe42",
-          ""
-        ],
-        [
-          "unconnected_items|226940000|138570000|F.Cu|4|0fdb75d6-67a6-4ab1-94c1-7b3c2f4b96ef|558c9317-f04c-4b3f-a5ab-5ccb26af8add",
-          ""
-        ],
-        [
-          "unconnected_items|226940000|141110000|F.Cu|4|f6b2c766-39ad-492f-bd7e-5527fffaf616|9933f32d-a3cf-4f76-bafd-e98a492a31a4",
-          ""
-        ],
-        [
-          "unconnected_items|226940000|148730000|F.Cu|4|51124a9e-2bd0-4cb6-a6cb-3ccbbe65a34e|edc88d97-d44b-42a6-9407-4e4084361c66",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -615,7 +542,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../sand_box/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -854,7 +781,7 @@
         "uuid": "01bdb219-e962-46e0-86ef-19b214cb07d2"
       }
     ],
-    "used_designators": "U5,#PWR32,#PWR35-37,#PWR47,#PWR49,J1",
+    "used_designators": "U5,U8,#PWR9,#PWR38,#PWR46-49",
     "variants": []
   },
   "sheets": [
