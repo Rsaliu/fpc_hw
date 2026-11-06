@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints") (options "") (descr ""))
+	(lib (name "SD_card_module") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/SD_card_module.pretty") (options "") (descr ""))
+	(lib (name "DS3231_MODULE") (type "KiCad") (uri "${KIPRJMOD}/libraries/DS3231_MODULE.pretty") (options "") (descr ""))
+	(lib (name "UPS_board_lx_2bups") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/UPS_board_lx_2bups.pretty") (options "") (descr ""))
+)
